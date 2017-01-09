@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--Native stylesheet reference-->
+    <link rel="stylesheet" href="public/css/style.css">
+    <!--Font Awesome CDN-->
+    <script src="https://use.fontawesome.com/2c3779d488.js"></script>
+</head>
+<body ng-app="legacy">
+
+<ng-view></ng-view>
+
+
+<div class="footer-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <dl>
+                    <dt>Tenant Services</dt>
+                    <dd>Pay Rent</dd>
+                    <dd>Submit a Request for Service</dd>
+                    <dd>Check Status of a Service Request</dd>
+                    <dd>General comments/inquiries</dd>
+                </dl>
+            </div>
+            <div class="col-md-4">
+                <ul>
+                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <dl>
+                    <dt>Some Other List</dt>
+                    <dd>Option</dd>
+                    <dd>Another Option</dd>
+                    <dd>More Options</dd>
+                    <dd>Options for days</dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--JQuery CDN-->
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+<!--Angular CDN-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>
+<!--Angular routing CDN-->
+<script type="text/javascript" src="https://code.angularjs.org/1.5.8/angular-route.min.js"></script>
+
+<!--Angular Application Injection-->
+<script type="text/javascript" src="public/js/index.js"></script>
+
+
+<!--Injection of Angular modules-->
+
+<script type="text/javascript" src="public/js/welcome.js"></script>
+</body>
+</html>
