@@ -1,0 +1,51 @@
+div {
+    border: 1px dotted;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.welcome-header {
+    height: 70px;
+}
+
+.welcome-header header nav {
+    text-align: center;
+    line-height: 70px;
+}
+
+.welcome-header header nav a {
+    margin: 0 10px;
+}
+
+.welcome-wrapper-one {
+    padding-top: 70px;
+    height: 65vh;
+}
+
+.welcome-wrapper-two {
+    height: 65vh;
+    padding: 14vh 140px;
+    text-align: center;
+}
+.welcome-wrapper-two h1 {
+}
+
+.welcome-wrapper-two p{
+
+}
+
+.welcome-wrapper-three {
+    height: 65vh;
+    padding: 14vh 140px;
+    text-align: center;
+}
+
+.welcome-wrapper-four {
+    height: 65vh;
+    padding: 14vh 140px;
+    text-align: center;
+}
+
