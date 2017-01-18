@@ -2,6 +2,10 @@ div {
     border: 1px dotted;
 }
 
+* {
+    font-family: Avenir;
+}
+
 body {
     padding: 0;
     margin: 0;
@@ -41,6 +45,7 @@ body {
     height: 65vh;
     padding: 14vh 140px;
     text-align: center;
+    background-color: #3EC3F1;
 }
 
 .welcome-wrapper-four {
@@ -49,3 +54,8 @@ body {
     text-align: center;
 }
 
+
+
+.about-wrapper {
+    padding-top: 70px;
+}
