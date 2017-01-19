@@ -1,5 +1,5 @@
 div {
-    border: 1px dotted;
+
 }
 
 * {
@@ -13,6 +13,9 @@ body {
 
 .welcome-header {
     height: 70px;
+    background-color: transparent;
+    -webkit-transition: background-color 2s;
+    transition: background-color 2s;
 }
 
 .welcome-header header nav {
@@ -22,11 +25,16 @@ body {
 
 .welcome-header header nav a {
     margin: 0 10px;
+    font-size: 1.3em;
+    color: white;
 }
 
 .welcome-wrapper-one {
     padding-top: 70px;
     height: 65vh;
+    background-image: url("https://static.pexels.com/photos/121537/pexels-photo-121537.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .welcome-wrapper-two {
@@ -35,27 +43,119 @@ body {
     text-align: center;
 }
 .welcome-wrapper-two h1 {
+
+    font-size: 2em;
 }
 
 .welcome-wrapper-two p{
+    font-size: 2em;
+}
 
+.welcome-wrapper-two button {
+
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 2.5em;
+    padding: 5px 8px;
 }
 
 .welcome-wrapper-three {
     height: 65vh;
     padding: 14vh 140px;
     text-align: center;
-    background-color: #3EC3F1;
+    background-color: black;
 }
 
+.welcome-wrapper-three p, .welcome-wrapper-three h2 {
+    color: white;
+    font-size: 2em;
+}
+
+.welcome-wrapper-three button {
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2.5em;
+    padding: 5px 8px;
+}
 .welcome-wrapper-four {
     height: 65vh;
     padding: 14vh 140px;
     text-align: center;
 }
 
+.welcome-wrapper-four input {
+    font-size: 2.5em;
+    padding: 5px 8px;
+}
+
+.welcome-wrapper-four button {
+    font-size: 2.5em;
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 5px 8px;
+}
+
 
 
 .about-wrapper {
     padding-top: 70px;
+}
+
+.footer-wrapper {
+    height: 200px;
+}
+
+#footer-left-div {
+    background-color: black;
+    height: 200px;
+    padding-top: 40px;
+}
+
+#footer-left-div dl {
+    text-align: center;
+}
+#footer-left-div dl dt {
+    color: darkgray;
+}
+
+#footer-left-div dl dd {
+    color: white;
+}
+
+#footer-center-div {
+    background-color: black;
+    height: 200px;
+    padding-top: 40px;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+
+#footer-center-div ul {
+    text-align: center;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+#footer-center-div ul li a {
+    color: white;
+    font-size: 1.7em;
+}
+
+#footer-right-div {
+    background-color: black;
+    height: 200px;
+    padding-top: 40px;
+}
+
+#footer-right-div dl {
+    text-align: center;
+}
+
+#footer-right-div dl dt {
+    color: darkgray;
+}
+
+#footer-right-div dl dd {
+    color: white;
 }
