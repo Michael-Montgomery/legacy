@@ -29,6 +29,13 @@ body {
     color: white;
 }
 
+.welcome-header nav a:first-child {
+    font-family: 'Meddon', cursive;
+    float: left;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .welcome-wrapper-one {
     padding-top: 70px;
     height: 65vh;
@@ -45,6 +52,7 @@ body {
 .welcome-wrapper-two h1 {
 
     font-size: 2em;
+    margin-bottom: 40px;
 }
 
 .welcome-wrapper-two p{
@@ -71,6 +79,10 @@ body {
     font-size: 2em;
 }
 
+.welcome-wrapper-three h2 {
+    margin-bottom: 40px;
+}
+
 .welcome-wrapper-three button {
     color: white;
     background-color: transparent;
@@ -84,16 +96,31 @@ body {
     text-align: center;
 }
 
+.welcome-wrapper-four h2 {
+    margin-bottom: 40px;
+}
+.welcome-wrapper-four p {
+    font-size: 2em;
+}
+
 .welcome-wrapper-four input {
     font-size: 2.5em;
     padding: 5px 8px;
+    border: 2px solid black;
+    border-right: none;
+    margin-right: 0;
+    outline: none;
 }
 
 .welcome-wrapper-four button {
     font-size: 2.5em;
-    background-color: transparent;
+    background-color: black;
+    color: white;
     border: 2px solid black;
     padding: 5px 8px;
+    margin-left: 0;
+    position: relative;
+    left: -10px;
 }
 
 
