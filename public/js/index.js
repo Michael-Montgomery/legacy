@@ -2,7 +2,9 @@ var app = angular.module('legacy', [
     'ngRoute',
     'legacy.welcome',
     'legacy.about',
-    'legacy.homes'
+    'legacy.homes',
+    'legacy.home',
+    'handoff.svc'
 ]);
 
 app.config(function($routeProvider) {
@@ -25,5 +27,10 @@ app.config(function($routeProvider) {
     $routeProvider.when('/homes', {
         templateUrl: 'public/views/templates/homes.tpl.html',
         controller: 'homesController'
+    })
+
+    $routeProvider.when('/home', {
+        templateUrl: 'public/views/templates/home.tpl.html',
+        controller: 'homeController'
     })
 })

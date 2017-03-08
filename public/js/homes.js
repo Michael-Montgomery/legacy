@@ -1,7 +1,9 @@
-var app = angular.module('legacy.homes', []);
+var app = angular.module('legacy.homes', [
+    'handoff.svc'
+]);
 
 
-app.controller('homesController', function($scope) {
+app.controller('homesController', function($scope, dataHandoff, $location) {
     $scope.homes = {};
 
     $scope.homeList = [
@@ -58,6 +60,7 @@ app.controller('homesController', function($scope) {
     ];
 
     $scope.openTemplate = function(idx) {
-        alert($scope.homeList[idx].monthlyRate)
+        dataHandoff.objectInQueue = $scope.homeList[idx];
+        $location.path('/home');
     }
 })
