@@ -1,7 +1,23 @@
 <div class="container-fluid">
     <div class="row">
         <div class="col-md-12 home-wrapper-one">
-            <h1>{{home.monthlyRate}}</h1>
+            <div id="home-big-pic-wrapper">
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 home-wrapper-two">
+            <ul id="home-picture-list">
+                <li ng-repeat="home in homes track by index">
+                    <div class="home-thumbnail-wrapper">
+
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 </div>
