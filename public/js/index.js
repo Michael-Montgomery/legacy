@@ -1,7 +1,8 @@
 var app = angular.module('legacy', [
     'ngRoute',
     'legacy.welcome',
-    'legacy.about'
+    'legacy.about',
+    'legacy.homes'
 ]);
 
 app.config(function($routeProvider) {
@@ -19,5 +20,10 @@ app.config(function($routeProvider) {
     $routeProvider.when('/about', {
         templateUrl: 'public/views/templates/about.tpl.html',
         controller: 'aboutController'
+    })
+
+    $routeProvider.when('/homes', {
+        templateUrl: 'public/views/templates/homes.tpl.html',
+        controller: 'homesController'
     })
 })
