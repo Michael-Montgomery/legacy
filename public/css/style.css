@@ -235,6 +235,8 @@ body {
     width: 20vw;
     height: 200px;
     min-width: 220px;
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
 }
 
 .homes-home-wrapper:hover {
