@@ -7,7 +7,9 @@
 <div class="container-fluid">
     <div class="row">
         <div class="homes-search-wrapper">
-            <input type="text" placeholder="Search for your next home" ng-model="homes.searchText">
+            <div class="center-element">
+                <input type="text" placeholder="Search for your next home" ng-model="homes.searchText">
+            </div>
         </div>
     </div>
 </div>
@@ -25,7 +27,7 @@
         <div class="col-md-12 homes-homes-wrapper">
             <ul id="homes-results-list">
                 <li ng-repeat="home in homeList | filter:homes.searchText track by $index">
-                    <div class="homes-home-wrapper">
+                    <div class="homes-home-wrapper" ng-click="openTemplate($index)">
                         <div class="homes-pic-wrapper">
                         </div>
                         <p class="homes-price">{{home.monthlyRate | currency}}/mo.</p>
