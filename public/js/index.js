@@ -4,6 +4,7 @@ var app = angular.module('legacy', [
     'legacy.about',
     'legacy.homes',
     'legacy.home',
+    'legacy.contact',
     'handoff.svc'
 ]);
 
@@ -22,15 +23,20 @@ app.config(function($routeProvider) {
     $routeProvider.when('/about', {
         templateUrl: 'public/views/templates/about.tpl.html',
         controller: 'aboutController'
-    })
+    });
 
     $routeProvider.when('/homes', {
         templateUrl: 'public/views/templates/homes.tpl.html',
         controller: 'homesController'
-    })
+    });
 
     $routeProvider.when('/home', {
         templateUrl: 'public/views/templates/home.tpl.html',
         controller: 'homeController'
-    })
+    });
+
+    $routeProvider.when('/contact', {
+        templateUrl: 'public/views/templates/contact.tpl.html',
+        controller: 'contactController'
+    });
 })

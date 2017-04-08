@@ -197,7 +197,7 @@ body {
 /*Styling for homes page*/
 
 .homes-wrapper-one {
-    height: 20vh;
+    height: 30vh;
     background-image: url("https://static.pexels.com/photos/173489/pexels-photo-173489.jpeg");
     background-attachment: fixed;
     background-size: cover;
@@ -268,9 +268,101 @@ body {
 
 
 
+/*Styling for about templates page*/
+
+.about-wrapper-one {
+    height: 30vh;
+    background-image: url("https://static.pexels.com/photos/27665/pexels-photo-27665.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
 
 
 
+
+/*Styling for contact page*/
+
+.contact-wrapper-one {
+    height: 30vh;
+    background-image: url("https://static.pexels.com/photos/1984/black-and-white-city-man-people.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.contact-questions {
+    font-size: 1.8em;
+    padding-top: 50px;
+}
+
+.contact-we-would {
+    font-size: 2.4em;
+}
+
+.half-width {
+    font-size: 1.8em;
+    width: 350px;
+    padding: 5px 8px;
+    border: 2px solid black;
+    outline: none;
+}
+
+.full-width {
+    font-size: 1.8em;
+    width: 702px;
+    padding: 5px 8px;
+    border: 2px solid black;
+    outline: none;
+    margin-top: 2px;
+}
+.contact-wrapper-two textarea {
+    resize: none;
+    height: 200px;
+}
+
+.contact-wrapper-two button {
+    font-size: 1.8em;
+    width: 702px;
+    padding: 5px 8px;
+    border: 2px solid black;
+    outline: none;
+    color: white;
+    background-color: black;
+    -webkit-transition: background-color .4s, color .4s;
+    transition: background-color .4s, color .4s;
+
+}
+
+.contact-wrapper-two button:hover {
+    color: black;
+    background-color: white;
+}
+
+.contact-wrapper-two button:active {
+    position: relative;
+    top: 1px;
+}
+#contact-social-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+#contact-social-list li {
+    display: inline;
+    margin-right: 50px;
+    margin-left:50px;
+}
+
+#contact-social-list li a {
+    color: black;
+    font-size: 2.5em;
+    opacity: .7;
+    -webkit-transition: opacity .6s;
+    transition: opacity .6s;
+}
+
+#contact-social-list li a:hover {
+    opacity: 1;
+}
 
 
 /*CSS Media Queries*/

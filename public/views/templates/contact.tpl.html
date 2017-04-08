@@ -1,0 +1,30 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contact-wrapper-one">
+
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12 contact-wrapper-two">
+            <p class="center-element contact-questions">Questions? Comments?</p><br>
+            <p class="center-element contact-we-would">We would love to hear from you.</p>
+            <form class="center-element">
+                <input id="contactFormFirstName" class="half-width" type="text" placeholder="First Name" ng-model="contactForm.firstName">
+                <input id="contactFormLastName" class="half-width" type="text" placeholder="Last Name" ng-model="contactForm.lastName"><br>
+                <input id="contactFormEmail" class="full-width" type="email" placeholder="Email" ng-model="contactForm.email"><br>
+                <textarea id="contactFormMessage" class="full-width" placeholder="Your message here..." ng-model="contactForm.message"></textarea><br>
+                <button ng-click="sendContactForm()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+            </form>
+            <hr>
+            <ul id="contact-social-list" class="center-element">
+                <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+            <hr>
+        </div>
+    </div>
+</div>
