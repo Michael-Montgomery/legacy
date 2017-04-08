@@ -5,7 +5,8 @@ var app = angular.module('legacy', [
     'legacy.homes',
     'legacy.home',
     'legacy.contact',
-    'handoff.svc'
+    'handoff.svc',
+    'adminLogin'
 ]);
 
 app.config(function($routeProvider) {
@@ -39,4 +40,9 @@ app.config(function($routeProvider) {
         templateUrl: 'public/views/templates/contact.tpl.html',
         controller: 'contactController'
     });
+
+    $routeProvider.when('/admin-login', {
+        templateUrl: 'public/views/templates/admin-login.tpl.html',
+        controller: 'adminLoginController'
+    })
 })
