@@ -8,7 +8,9 @@ app.controller('welcomeController', function($scope, $location) {
         } else {
             $('.welcome-header').css('background-color', 'black');
         }
-    })
+    });
+
+    $('.welcome-wrapper-two h1').hide().fadeToggle('slow');
     $scope.goToAbout = function() {
         $location.path('/about')
     }
