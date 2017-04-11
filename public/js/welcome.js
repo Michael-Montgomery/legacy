@@ -13,7 +13,7 @@ app.controller('welcomeController', function($scope, $location) {
     $('.welcome-wrapper-two h1').hide().fadeToggle('slow');
     $scope.goToAbout = function() {
         $location.path('/about')
-    }
+    };
 
     $scope.goToHomes = function() {
         $location.path('/homes')
