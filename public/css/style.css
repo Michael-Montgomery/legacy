@@ -49,6 +49,11 @@ body {
     opacity: 1;
 }
 
+.welcome-header nav a:last-child {
+    float: right;
+    display: none;
+}
+
 .welcome-wrapper-one {
     padding-top: 70px;
     height: 65vh;
@@ -456,3 +461,85 @@ body {
 
 
 /*CSS Media Queries*/
+
+
+
+
+@media (max-width: 600px) {
+    .welcome-header nav a:last-child {
+        display: inline;
+    }
+
+    .welcome-header nav a:first-child, .welcome-header nav a:nth-child(2), .welcome-header nav a:nth-child(3), .welcome-header nav a:nth-child(4) {
+        display: none;
+    }
+
+    .welcome-wrapper-one {
+        height: 50vh;
+    }
+
+    .welcome-wrapper-two {
+        padding: 10px;
+        height: 50vh;
+    }
+
+    .welcome-wrapper-two h1 {
+        font-size: 2.4em;
+    }
+
+    .welcome-wrapper-two p {
+        font-size: 1em;
+    }
+
+    .welcome-wrapper-two button, .welcome-wrapper-three button {
+        font-size: 1.3em;
+        margin-bottom: 20px;
+    }
+
+    .welcome-wrapper-three {
+        padding: 10px;
+        height: 45vh;
+    }
+
+    .welcome-wrapper-three h2 {
+        font-size: 1.5em;
+    }
+
+    .welcome-wrapper-three p {
+        font-size: 1em;
+    }
+
+    .welcome-wrapper-four {
+        padding: 10px;
+        height: 40vh;
+    }
+
+    .welcome-wrapper-four h2 {
+        font-size: 1.5em;
+    }
+
+    .welcome-wrapper-four p {
+        font-size: 1em;
+    }
+
+    .welcome-wrapper-four input {
+        font-size: 1.3em;
+
+    }
+
+    .welcome-wrapper-four button {
+        font-size: 1.3em;
+    }
+
+    #footer-left-div, #footer-right-div {
+        display: none;
+    }
+
+
+
+    #footer-center-div ul li {
+        display: inline;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
