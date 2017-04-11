@@ -15,7 +15,7 @@
     <script src="https://use.fontawesome.com/2c3779d488.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body ng-app="legacy">
+<body ng-app="legacy" ng-controller="mainController">
 
 <div class="container-fluid">
     <div class="row">
@@ -26,9 +26,15 @@
                     <a href="#/about">About</a>
                     <a href="#/homes">Homes</a>
                     <a href="#/contact">Contact</a>
-                    <a href="#"><i class="fa fa-bars" aria-hidden="true"></i></a>
+                    <a ng-click="triggerResponsive()"><i class="fa fa-bars" aria-hidden="true"></i></a>
                 </nav>
             </header>
+            <ul id="responsive-menu">
+                <li ng-click="hideResponsive()"><a href="#/welcome">Home</a> </li>
+                <li ng-click="hideResponsive()"><a href="#/about">About</a> </li>
+                <li ng-click="hideResponsive()"><a href="#/homes">Homes</a> </li>
+                <li ng-click="hideResponsive()"><a href="#/contact">Contact</a> </li>
+            </ul>
         </div>
     </div>
 </div>

@@ -18,8 +18,26 @@ body {
 .welcome-header {
     height: 70px;
     background-color: transparent;
-    -webkit-transition: background-color 2s;
-    transition: background-color 2s;
+    -webkit-transition: background-color .2s;
+    transition: background-color .2s;
+}
+
+#responsive-menu {
+    margin-top: 100px;
+    text-align: center;
+    list-style-type: none;
+    padding-left: 0;
+    display: none;
+}
+
+#responsive-menu li {
+    border-top: 1px dotted white;
+}
+
+#responsive-menu li a {
+    color: white;
+    font-size: 2em;
+    text-decoration: none;
 }
 
 .welcome-header header nav {
@@ -470,12 +488,18 @@ body {
         display: inline;
     }
 
-    .welcome-header nav a:first-child, .welcome-header nav a:nth-child(2), .welcome-header nav a:nth-child(3), .welcome-header nav a:nth-child(4) {
+    .welcome-header nav a:nth-child(2), .welcome-header nav a:nth-child(3), .welcome-header nav a:nth-child(4) {
         display: none;
     }
 
+    .welcome-header nav a:first-child, .welcome-header nav a:last-child {
+        font-size: 1.5em;
+    }
+
     .welcome-wrapper-one {
-        height: 50vh;
+        height: 45vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
     }
 
     .welcome-wrapper-two {
@@ -535,11 +559,41 @@ body {
         display: none;
     }
 
-
+    #footer-center-div {
+        border-right: none;
+        border-left: none;
+    }
 
     #footer-center-div ul li {
         display: inline;
         margin-left: 15px;
         margin-right: 15px;
+    }
+
+    #site-credit {
+        margin-top: 60px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 325px) {
+    .welcome-wrapper-three, .welcome-wrapper-four {
+        height: 60vh;
+    }
+
+    .welcome-wrapper-two {
+        height: 70vh;
+    }
+
+    .welcome-wrapper-two h1 {
+        font-size: 2.1em;
+    }
+
+    .welcome-wrapper-two button {
+        font-size: 1.1em;
     }
 }

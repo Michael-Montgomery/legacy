@@ -45,4 +45,39 @@ app.config(function($routeProvider) {
         templateUrl: 'public/views/templates/admin-login.tpl.html',
         controller: 'adminLoginController'
     })
+});
+
+app.controller('mainController', function($scope) {
+
+
+    $scope.triggerResponsive = function() {
+        if($('.welcome-header').css('height') === '70px') {
+            $('.welcome-header').css({
+                'height': '100vh',
+                'background-color': 'black'
+            });
+            if($('.welcome-header').css('opacity') != '1') {
+                $('.welcome-header').css('opacity', '1')
+            }
+        } else {
+            $('.welcome-header').css('height', '70px')
+        }
+
+        $('#responsive-menu').toggle();
+    }
+
+    $scope.hideResponsive = function() {
+        if($('.welcome-header').css('height') != '70px') {
+            $('.welcome-header').css({
+                'height': '70px',
+                'background-color': 'black',
+                'opacity': 1
+            })
+        }else {
+            $('.welcome-header').css('height', '70px')
+        }
+
+
+        $('#responsive-menu').toggle();
+    }
 })
