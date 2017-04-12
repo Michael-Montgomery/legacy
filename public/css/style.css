@@ -704,7 +704,7 @@ body {
         background-image: url("https://static.pexels.com/photos/41042/pexels-photo-41042.jpeg");
         background-size: 100%;
         background-attachment: fixed;
-        
+
 
     }
 
@@ -753,6 +753,52 @@ body {
         padding-top: 30px;
         font-size: 1.3em;
         text-align: center;
+    }
+
+
+    .contact-wrapper-one {
+        background-size: 100%;
+    }
+
+    .contact-questions {
+        font-size: 2.2em;
+        padding-top: 10px;
+    }
+
+    .contact-we-would {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+    }
+
+    .contact-wrapper-two input:first-child {
+        margin-bottom: 3px;
+    }
+
+    .half-width {
+        font-size: 1.3em;
+        width: 90vw;
+        text-align: center;
+    }
+
+    .full-width {
+        font-size: 1.3em;
+        width: 90vw;
+        text-align: center;
+    }
+    .contact-wrapper-two textarea {
+        height: 175px;
+    }
+
+    .contact-wrapper-two button {
+        font-size: 1.8em;
+        width: 90vw;
+    }
+
+
+
+    #contact-social-list li {
+        margin-right: 15px;
+        margin-left:15px;
     }
 }
 
