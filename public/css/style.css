@@ -75,8 +75,9 @@ body {
 .welcome-wrapper-one {
     padding-top: 70px;
     height: 65vh;
-    background-image: url("https://static.pexels.com/photos/121537/pexels-photo-121537.jpeg");
+    background-image: url("https://static.pexels.com/photos/106399/pexels-photo-106399.jpeg");
     background-size: cover;
+    background-position-y: 160%;
     background-attachment: fixed;
 
 }
@@ -366,7 +367,7 @@ body {
 
 .about-wrapper-one {
     height: 30vh;
-    background-image: url("https://static.pexels.com/photos/27665/pexels-photo-27665.jpg");
+    background-image: url("https://static.pexels.com/photos/398532/pexels-photo-398532.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -430,7 +431,7 @@ body {
     border: 1px solid;
     border-radius: 50%;
     margin: 0 auto;
-    background-image: url("https://static.pexels.com/photos/27411/pexels-photo-27411.jpg");
+    background-image: url("https://static.pexels.com/photos/324658/pexels-photo-324658.jpeg");
     background-size: cover;
     background-position: center;
 }
@@ -462,7 +463,7 @@ body {
 
 .contact-wrapper-one {
     height: 30vh;
-    background-image: url("https://static.pexels.com/photos/1984/black-and-white-city-man-people.jpg");
+    background-image: url("https://static.pexels.com/photos/211290/pexels-photo-211290.jpeg");
     background-attachment: fixed;
     background-size: cover;
 }
@@ -587,8 +588,8 @@ body {
 
     .welcome-wrapper-one {
         height: 45vh;
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-position-y: -5000%;
+        background-position-x: 50%;
     }
 
     .welcome-wrapper-two {
@@ -669,7 +670,7 @@ body {
 
     .about-wrapper-one {
         height: 30vh;
-        background-image: url("https://static.pexels.com/photos/27665/pexels-photo-27665.jpg");
+        background-image: url("https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg");
         background-attachment: fixed;
         background-size: 100%;
         background-repeat: no-repeat;
@@ -927,7 +928,7 @@ body {
 
     .about-insert-wrapper {
         height: 200px;
-        background-image: url("https://static.pexels.com/photos/41042/pexels-photo-41042.jpeg");
+        background-image: url("https://static.pexels.com/photos/7096/people-woman-coffee-meeting.jpg");
         background-size: cover;
         background-attachment: fixed;
     }
@@ -951,11 +952,6 @@ body {
     }
     .about-wrapper-three {
         padding: 10px 20px;
-    }
-
-    #picture-wrapper {
-        width: 150px;
-        height: 150px;
     }
 
     .about-wrapper-three h2 {
