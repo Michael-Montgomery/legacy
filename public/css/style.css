@@ -356,6 +356,20 @@ body {
 
 
 
+
+/*Styling for home template/page*/
+
+
+#big-picture {
+    width: 100%;
+    height: 30vh;
+}
+
+.home-wrapper-two {
+
+}
+
+
 /*Styling for home template page (home.tpl.html)*/
 
 
