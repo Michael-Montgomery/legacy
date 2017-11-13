@@ -392,6 +392,7 @@ body {
 
 .about-wrapper-two h2 {
     text-align: center;
+    min-height: 20vh;
     font-size: 2em;
 }
 
@@ -437,6 +438,7 @@ body {
 }
 .about-wrapper-three {
     padding: 50px 100px;
+    min-height: 20vh;
 }
 
 #picture-wrapper {
